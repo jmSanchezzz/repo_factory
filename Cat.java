@@ -1,6 +1,9 @@
 public class Cat implements Pet {
     private int noOfLives;
     
+    public void setNoOfLives(int noOfLives) {
+        this.noOfLives = noOfLives;
+    }
     @Override
     public String play(){
         return "Pouncing";
